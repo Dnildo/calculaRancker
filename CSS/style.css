@@ -1,0 +1,42 @@
+body{
+    align-items: center;
+  margin-left: 40%;
+    padding: 0;
+    background-color: brown;
+}
+:root{
+    --gradient: linear-gradient(0deg, blue, rgb(227, 194, 194));
+}
+h1{
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 5.9px  #f3b4f1;
+   
+}
+h5{
+    font-size: 1.6em;
+}
+label{
+    font-size: 1.3em;
+}
+
+h3{
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 4.9px  #f3b4f1; 
+}
+h4{
+    font-size: 2em;
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 3.9px  #f3b4f1;
+}
+#inCalcular{
+    margin-left: 6%
+}
